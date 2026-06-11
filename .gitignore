@@ -1,3 +1,6 @@
 terraform/backend/.terraform/
 terraform/backend/*.tfstate
 terraform/backend/*.tfstate.*
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
