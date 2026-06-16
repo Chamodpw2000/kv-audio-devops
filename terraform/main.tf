@@ -8,10 +8,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "demo-terraform-eks-chamod-state-bucket-chamod-us-east-1"
+    bucket = "kv-audio-state-store-s3-chamod"
     key = "terraform.tfstate"
-    region  = "us-east-1"
-    dynamodb_table = "terraform-eks-state-locks" 
+    region  = "ap-south-1"
+    dynamodb_table = "kv-audio-state-store-lock-table-chamod" 
     encrypt = true
   }
 }
@@ -19,7 +19,7 @@ terraform {
 
 
 provider "aws" {
-  region = "us-east-1"
+  region = "ap-south-1"
 }
 
 
