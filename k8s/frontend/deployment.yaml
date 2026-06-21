@@ -17,7 +17,7 @@ spec:
       automountServiceAccountToken: false
       containers:
         - name: frontend
-          image: your-dockerhub-username/kv-audio-frontend:1.0.0
+          image: 991232067093.dkr.ecr.ap-south-1.amazonaws.com/kv_frontend@sha256:fa346773161d851f7784acd79df7cab867c4730f9e5bafe232503af0880c235b
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
