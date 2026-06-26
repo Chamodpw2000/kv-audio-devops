@@ -17,7 +17,7 @@ spec:
       automountServiceAccountToken: false
       containers:
         - name: frontend
-          image: 991232067093.dkr.ecr.ap-south-1.amazonaws.com/kv_frontend:b9d1f660c849eb05ceb274ef06f4492587bdaf58
+          image: 991232067093.dkr.ecr.ap-south-1.amazonaws.com/kv_frontend:2a22837d0b8ff3f8a3526f04c598024765b39f65
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
